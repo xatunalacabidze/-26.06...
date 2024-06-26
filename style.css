@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: darkcyan;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    padding: 15px;
+    border: 1px solid  color black;
+    border-radius: 15px;
+    background-color: darkorange;
+    width: 250px;
+}
+#product1{
+    background-color: blueviolet;
+}
+#product2{
+    background-color: darkgreen;
+}
+#product3{
+    background-color: blue;
+}
+ .button{
+    background-color: chartreuse;
+    border-radius: 15px;
+    width: 80px;
+    height: 40px;
+ }
